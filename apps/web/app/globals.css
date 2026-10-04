@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { margin: 0; color: #0f172a; background: #f8fafc; }
+.nav-link { display: inline-flex; align-items: center; gap: .4rem; color: #475569; font-size: .9rem; font-weight: 700; }
+.nav-link:hover { color: #4f46e5; }
+.button-primary { display: inline-flex; align-items: center; justify-content: center; border-radius: .75rem; background: #4f46e5; color: white; padding: .7rem 1rem; font-size: .875rem; font-weight: 800; box-shadow: 0 8px 20px #4f46e533; }
+.button-primary:hover { background: #4338ca; }
+.button-secondary { display: inline-flex; align-items: center; justify-content: center; border-radius: .75rem; background: #e2e8f0; color: #0f172a; padding: .7rem 1rem; font-size: .875rem; font-weight: 800; }
+.eyebrow { color: #4f46e5; font-size: .75rem; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+.section-title { margin-top: .35rem; font-size: 2.25rem; font-weight: 900; letter-spacing: -.04em; }
+.input { width: 100%; border-radius: .75rem; border: 1px solid #cbd5e1; background: white; padding: .75rem 1rem; color: #0f172a; outline: none; }
+.input:focus { border-color: #6366f1; box-shadow: 0 0 0 3px #6366f133; }
+.state-card { border-radius: 1rem; border: 1px dashed #cbd5e1; background: white; padding: 3rem; text-align: center; }
+.label { display: block; margin-top: 1.25rem; font-size: .875rem; font-weight: 800; color: #334155; }
+.field-error { margin-top: .35rem; font-size: .8rem; font-weight: 600; color: #dc2626; }
+.skeleton { animation: pulse 1.5s ease-in-out infinite; background: #e2e8f0; }
+@keyframes pulse { 50% { opacity: .5; } }

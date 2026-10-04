@@ -1,0 +1,1 @@
+export function ProductSkeleton() { return <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white"><div className="skeleton aspect-[4/3]"/><div className="space-y-3 p-5"><div className="skeleton h-3 w-1/3"/><div className="skeleton h-5 w-4/5"/><div className="skeleton h-4 w-full"/></div></div>; }
